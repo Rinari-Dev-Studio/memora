@@ -1,0 +1,28 @@
+# Android Studio
+*.iml
+.idea/
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS / IDE
+.DS_Store
+*.log
+
+# Local configuration
+local.properties
+.env
+
+# Room / Kotlin Generated
+**/*_Impl.kt
+**/*Database.kt
+**/generated/**
+
+# Test results
+/test-results/
+*.apk
+
+# Compose preview cache
+**/compose-compiler/
